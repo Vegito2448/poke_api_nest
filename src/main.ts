@@ -8,6 +8,10 @@ async function bootstrap() {
     new ValidationPipe({
       whitelist: true,
       forbidNonWhitelisted: true,
+      transform: true, // transform the data to the DTO
+      transformOptions: {
+        enableImplicitConversion: true,
+      }
     })
   );
   app.setGlobalPrefix('api/v2');

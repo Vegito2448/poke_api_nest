@@ -47,6 +47,8 @@ A RESTful API built with NestJS to manage a Pokémon database. This application 
 
 The application will be available at `http://localhost:3000`
 
+first run the seed `http://localhost:3000/api/v2/seed`
+
 ## 🐳 Docker
 
 ### Start services
@@ -100,6 +102,7 @@ pnpm run format            # Format code with Prettier
 | `POST`   | `/pokemon`     | Create a new Pokémon |
 | `PATCH`  | `/pokemon/:id` | Update a Pokémon     |
 | `DELETE` | `/pokemon/:id` | Delete a Pokémon     |
+| `GET` | `/seed` | Populates DB with PokeApi data     |
 
 ### Usage Examples
 
