@@ -268,6 +268,12 @@ docker build -t pokedex .
 # Run container
 docker run -p 3000:3000 pokedex
 ```
+or if you're in a production environment:
+
+```bash
+docker-compose -f docker-compose.prod.yaml up --build
+```
+
 
 ## 🤝 Contributing
 
