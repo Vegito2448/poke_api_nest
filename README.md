@@ -283,7 +283,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## 👨‍💻 Author
 
-**Your Name** - [@your-username](https://github.com/your-username)
+**Your Name** - [@Vegito2448](https://github.com/Vegito2448)
 
 ## 🙏 Acknowledgments
 
